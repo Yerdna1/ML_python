@@ -34,6 +34,7 @@ input_data = {
 }
 input_df = pd.DataFrame([input_data])
 
+
 # Preprocess input data
 input_processed = preprocessor.transform(input_df)
 
